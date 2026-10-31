@@ -1061,7 +1061,7 @@ async def cmd_start(msg: Message, state: FSMContext):
 
     db_upsert_user(msg.from_user.id, first_name=fname, username=uname)
 
-    bot_name = get_setting('bot_name', "AIDAA MOD VIP"
+    bot_name = get_setting('bot_name', 'AIDAA MOD VIP')
     rk = get_main_reply_kb(msg.from_user.id)
 
     text = (

@@ -252,7 +252,7 @@ DEFAULT_DB = {
     "orders": [],
     "settings": {
         "contact_admin": "@AIDAA_xZue",
-        "bot_name": "BOT",
+        "bot_name": ".",
         "maintenance": "0",
         "order_group_id": ""
     },
@@ -1066,7 +1066,7 @@ async def cmd_start(msg: Message, state: FSMContext):
 
     text = (
         f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji>𝗛𝗲𝗹𝗹𝗼,<b> {fname} !</b>\n\n\n"
-        f"<tg-emoji emoji-id='5870991681112772430'>🕘</tg-emoji> 𝗛𝗲𝗹𝗹𝗼, 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 <b>{bot_name}</b> bot store.\n"
+        f"<tg-emoji emoji-id='5870991681112772430'>🕘</tg-emoji> 𝗛𝗲𝗹𝗹𝗼, 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 <b>{bot_name}</b> .\n"
         f"Pls click button <b>BUY NOW</b>"
     )
 

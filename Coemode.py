@@ -2486,9 +2486,9 @@ async def add_stock_save(msg: Message, state: FSMContext):
     alert = (
         f'<tg-emoji emoji-id="6269366244462301331">📢</tg-emoji> '
         f'<b>ស្តុកថ្មីបានមកដល់ហើយ!</b>\n\n'
-        • ទំនិញ៖ <b>{cat_name}</b>\n'
-        • កញ្ចប់៖ <b>{item["name"]}</b>\n'
-        • ចំនួនបន្ថែមថ្មី៖ <b>{added}</b>\n\n'
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • ទំនិញ៖ <b>{cat_name}</b>\n'
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • កញ្ចប់៖ <b>{item["name"]}</b>\n'
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • ចំនួនបន្ថែមថ្មី៖ <b>{added}</b>\n\n'
         f'<tg-emoji emoji-id="6285206483281911213">✅</tg-emoji> '
         f'<b>បានបន្ថែមស្តុបរួចរាល់អាចធ្វើការទិញបាន!</b>\n'
         f'<tg-emoji emoji-id="5465198403573012261">👉</tg-emoji> '

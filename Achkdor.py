@@ -35,7 +35,7 @@ from aiogram.exceptions import (
 BOT_TOKEN = "9038599787:AAGCPEwqz1TmOWra5H2-czOXkfgX2lnJuZo"
 OWNER_ID  = 8371081776
 
-KHQR_API_KEY    = "sk_8b3eef97fe495e352473279a4ab633720f902190d25e5922"
+KHQR_API_KEY    = "sk_f3defe8c31d253d6fd745ac4d40e8107ee05be6903a5503d"
 KHQR_CREATE_URL = "https://khqrpay.site/api/v1/aba/create"
 KHQR_CHECK_URL  = "https://khqrpay.site/api/v1/payment"
 

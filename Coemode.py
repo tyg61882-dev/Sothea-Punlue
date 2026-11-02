@@ -1065,11 +1065,11 @@ async def cmd_start(msg: Message, state: FSMContext):
     rk = get_main_reply_kb(msg.from_user.id)
 
     text = (
-        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b>𝗛𝗲𝗹𝗹𝗼,</b> 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 \n\n"
+        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b>𝗛𝗲𝗹𝗹𝗼 </b> 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 \n\n"
         f"<tg-emoji emoji-id='6212789383301447098'>🛒</tg-emoji> ការដឹកជញ្ជូនភ្លាមៗ\n"
         f"<tg-emoji emoji-id='5213414681808480994'>🛍</tg-emoji> ការទូទាត់ប្រកបដោយសុវត្ថិភាព\n"
         f"<tg-emoji emoji-id='5316575093269214796'>⏰</tg-emoji> សេវាកម្ម 24/7\n\n"
-        f"សូមចុច (<tg-emoji emoji-id='6210512226000839036'>🛒</tg-emoji> <b>BUY NOW</b>) ខាងក្រោម"
+        f"សូមចុច (<tg-emoji emoji-id='5312361253610475399'>🛒</tg-emoji> <b>BUY NOW</b>) ខាងក្រោម"
     )
 
     start_media = get_setting('start_media')
@@ -1110,7 +1110,7 @@ async def send_categories(event):
 
     kb = [[IBtn(text=c[1], callback_data=f"sel_cat_{c[0]}",
                 style="primary", icon_custom_emoji_id=c[2])] for c in cats]
-    text = '<tg-emoji emoji-id="5312361253610475399">🛒</tg-emoji> <b>Categories all ៖</b>'
+    text = '<tg-emoji emoji-id='5312361253610475399'>🛒</tg-emoji> <b>Categories all ៖</b>'
     mk = InlineKeyboardMarkup(inline_keyboard=kb)
 
     if isinstance(event, CallbackQuery):

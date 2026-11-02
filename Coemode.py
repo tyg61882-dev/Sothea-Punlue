@@ -1065,10 +1065,10 @@ async def cmd_start(msg: Message, state: FSMContext):
     rk = get_main_reply_kb(msg.from_user.id)
 
     text = (
-        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b></b>  .\n\n"
-        f"<tg-emoji emoji-id='6210512226000839036'>🛒</tg-emoji> ការដឹកជញ្ជូនភ្លាមៗ\n"
+        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b>𝗛𝗲𝗹𝗹𝗼,</b> 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 \n\n"
+        f"<tg-emoji emoji-id='6212789383301447098'>🛒</tg-emoji> ការដឹកជញ្ជូនភ្លាមៗ\n"
         f"<tg-emoji emoji-id='5213414681808480994'>🛍</tg-emoji> ការទូទាត់ប្រកបដោយសុវត្ថិភាព\n"
-        f"<tg-emoji emoji-id='5870991681112772430'>🕘</tg-emoji> សេវាកម្ម 24/7\n\n"
+        f"<tg-emoji emoji-id='5316575093269214796'>⏰</tg-emoji> សេវាកម្ម 24/7\n\n"
         f"សូមចុច (<tg-emoji emoji-id='6210512226000839036'>🛒</tg-emoji> <b>BUY NOW</b>) ខាងក្រោម"
     )
 
@@ -2484,14 +2484,14 @@ async def add_stock_save(msg: Message, state: FSMContext):
     cat_name = cat["name"] if cat else item["name"]
 
     alert = (
-        f'<tg-emoji emoji-id="6143006459778049445">📢</tg-emoji> '
+        f'<tg-emoji emoji-id="6269366244462301331">📢</tg-emoji> '
         f'<b>ស្តុកថ្មីបានមកដល់ហើយ!</b>\n\n'
-        f'<tg-emoji emoji-id="6142952094082015848">📦</tg-emoji> • ទំនិញ៖ <b>{cat_name}</b>\n'
-        f'<tg-emoji emoji-id="6142952094082015848">📦</tg-emoji> • កញ្ចប់៖ <b>{item["name"]}</b>\n'
-        f'<tg-emoji emoji-id="6142952094082015848">📦</tg-emoji> • ចំនួនបន្ថែមថ្មី៖ <b>{added}</b>\n\n'
-        f'<tg-emoji emoji-id="5312441427764989435">✅</tg-emoji> '
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • ទំនិញ៖ <b>{cat_name}</b>\n'
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • កញ្ចប់៖ <b>{item["name"]}</b>\n'
+        f'<tg-emoji emoji-id="6219487328964973790">📦</tg-emoji> • ចំនួនបន្ថែមថ្មី៖ <b>{added}</b>\n\n'
+        f'<tg-emoji emoji-id="6285206483281911213">✅</tg-emoji> '
         f'<b>បានបន្ថែមស្តុបរួចរាល់អាចធ្វើការទិញបាន!</b>\n'
-        f'<tg-emoji emoji-id="6129433877791382400">👉</tg-emoji> '
+        f'<tg-emoji emoji-id="5465198403573012261">👉</tg-emoji> '
         f'ចុចប៊ូតុងខាងក្រោមដើម្បីទិញ៖'
     )
     kb = InlineKeyboardMarkup(inline_keyboard=[[IBtn(

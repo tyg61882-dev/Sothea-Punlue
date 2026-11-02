@@ -35,7 +35,7 @@ from aiogram.exceptions import (
 BOT_TOKEN = "9038599787:AAGCPEwqz1TmOWra5H2-czOXkfgX2lnJuZo"
 OWNER_ID  = 8371081776
 
-KHQR_API_KEY    = "sk_98c99cdfff01a78707b83590dd181d709c04869a721ce304"
+KHQR_API_KEY    = "sk_8b3eef97fe495e352473279a4ab633720f902190d25e5922"
 KHQR_CREATE_URL = "https://khqrpay.site/api/v1/aba/create"
 KHQR_CHECK_URL  = "https://khqrpay.site/api/v1/payment"
 
@@ -251,8 +251,8 @@ DEFAULT_DB = {
     "stock": [],
     "orders": [],
     "settings": {
-        "contact_admin": "@BLACK_Khmer",
-        "bot_name": "AIDAA MOD STORE",
+        "contact_admin": "@AIDAA_xZue",
+        "bot_name": "...!",
         "maintenance": "0",
         "order_group_id": ""
     },
@@ -1065,7 +1065,7 @@ async def cmd_start(msg: Message, state: FSMContext):
     rk = get_main_reply_kb(msg.from_user.id)
 
     text = (
-        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b>.𝗛𝗲𝗹𝗹𝗼, 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 <b>\n\n"
+        f"<tg-emoji emoji-id='5328024204770044648'>👋</tg-emoji> <b>.𝗛𝗲𝗹𝗹𝗼 𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗯𝗼𝘁 <b>\n\n"
         f"<tg-emoji emoji-id='6210512226000839036'>🛒</tg-emoji> ការដឹកជញ្ជូនភ្លាមៗ\n"
         f"<tg-emoji emoji-id='5213414681808480994'>🛍</tg-emoji> ការទូទាត់ប្រកបដោយសុវត្ថិភាព\n"
         f"<tg-emoji emoji-id='5870991681112772430'>🕘</tg-emoji> សេវាកម្ម 24/7\n\n"
